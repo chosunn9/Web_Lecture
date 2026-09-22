@@ -17,7 +17,10 @@
         </nav>
 
         <hr>
+        <main>
+        <section id="intro">
         <h2 id="profile">1. 자기소개</h1>
+            <article>
         <p>
             안녕하세요!<br>
             저는 웹 프로그래밍을 배우고 있습니다. <br>
@@ -26,8 +29,12 @@
             <img src="profile.png" alt="이미지" width="200"><br>
             <hr>
         </p>
+        </article>
+        </section id="intro">
+        <section id="interest">
         <h2 id="information">2. 관심분야</h1>
         <p>
+            <article>
             <h3>관심있는 기술</h3>
             <ul>
                 <li>C언어</li>
@@ -35,6 +42,8 @@
                 <li>JavaScript</li>
                 <li>React</li>
             </ul>
+            </article>
+            <article>
             <h3>학습 순서</h3>
             <ol>
                 <li>HTML 학습</li>
@@ -42,8 +51,11 @@
                 <li>JavaScript 학습</li>
                 <li>웹 프로젝트 만들기</li>
             </ol>
+            </article>
         </p>
+        </section id="interest">
         <hr>
+        <section id="schedule">
         <h2 id="plan">3. 학습계획</h1>
         <table border="1">
             <thead>
@@ -69,7 +81,9 @@
                 </tr>
             </thead>
         </table>
+        </section id="schedule">
         <hr>
+        <section id="contact">
         <h2 id="qna">4. 문의하기</h1>
         <form>
             이름<br>
@@ -82,6 +96,38 @@
             <input type="date" name="birth"><br>
             <br>학년<br>
             <input type="text" name="grade"><br>
+            <br>관심 분야<br>
+            <input type="radio" name="like">프론트엔드
+            <input type="radio" name="like">백엔드
+            <input type="radio" name="like">AI <br>
+            <br>배우고 싶은 기술<br>
+            <input type="checkbox" name="want">HTML
+            <input type="checkbox" name="want">CSS
+            <input type="checkbox" name="want">JavaScript <br>
+            <hr>
+            <br>웹 프로그래밍 수준<br>
+            <select>
+                <option>초급</option>
+                <option>중급</option>
+                <option>상급</option>
+            </select>
+            <br>문의 내용<br>
+            <input type="text" name="tell" value="문의 내용 입력"><br>
+            <input type="submit" value="제출">
+            <input type="submit" value="초기화">
         </form>
+        <h3>참고 사이트</h3>
+        <p>
+            HTML에 대해 더 공부하고 싶다면?
+        </p>
+        </section id="contact">
+        </main>
+        <hr>
+        <footer>
+        <p>
+            Copyright © 2026 Web Programming<br>
+            HTML 종합 실습 페이지
+        </p>
+        </footer>
     </body>
 </html>
