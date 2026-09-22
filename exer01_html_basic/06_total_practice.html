@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <header>
+            <title>My Profile</title>
+            <h1>나의 웹 프로필</h1><br>
+            <h7>HTML 기본 태그를 활용하여 만든 웹 페이지 입니다. </h7><br>
+            <hr>
+        </header>
+    </head>
+    <body>
+        <nav>
+        <a href="#profile"> 소개</a> |
+        <a href="#information"> 관심 분야</a> |
+        <a href="#plan"> 학습 계획</a> |
+        <a href="#qna"> 문의하기</a> 
+        </nav>
+
+        <hr>
+        <h2 id="profile">1. 자기소개</h1>
+        <p>
+            안녕하세요!<br>
+            저는 웹 프로그래밍을 배우고 있습니다. <br>
+            HTML의 기본구조와 다양한 태그를 학습 중입니다. <br>
+            앞으로 CSS와 JavaScript도 공부할 것입니다. <br>
+            <img src="profile.png" alt="이미지" width="200"><br>
+            <hr>
+        </p>
+        <h2 id="information">2. 관심분야</h1>
+        <p>
+            <h3>관심있는 기술</h3>
+            <ul>
+                <li>C언어</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+            <h3>학습 순서</h3>
+            <ol>
+                <li>HTML 학습</li>
+                <li>CSS 학습</li>
+                <li>JavaScript 학습</li>
+                <li>웹 프로젝트 만들기</li>
+            </ol>
+        </p>
+        <hr>
+        <h2 id="plan">3. 학습계획</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>주차</th>
+                    <th>학습내용</th>
+                    <th>상태</th>
+                </tr>
+                <tr>
+                    <td>1주차</td>
+                    <td>HTML 기본</td>
+                    <td>학습 완료</td>
+                </tr>
+                <tr>
+                    <td>2주차</td>
+                    <td>CSS 기본</td>
+                    <td>학습 예정</td>
+                </tr>
+                <tr>
+                    <td>3주차</td>
+                    <td>JavaScript 기본</td>
+                    <td>학습 예정</td>
+                </tr>
+            </thead>
+        </table>
+        <hr>
+        <h2 id="qna">4. 문의하기</h1>
+        <form>
+            이름<br>
+            <input type="text" name="text" value="이름"><br>
+            <br>비밀번호<br>
+            <input type="password" name="password"><br>
+            <br>이메일<br>
+            <input type="text" name="mail" value="examplel@email.com"><br>
+            <br>생년월일<br>
+            <input type="date" name="birth"><br>
+            <br>학년<br>
+            <input type="text" name="grade"><br>
+        </form>
+    </body>
+</html>
