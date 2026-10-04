@@ -1,13 +1,205 @@
-input:disabled{
-    background-color: lightgray;
+/* 기본 초기화 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10px;
+}
+
+/* 컨테이너 */
+.card-container {
+    width: 650px;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+/* 헤더 */
+.header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 30px 25px;
+}
+
+.header h1 {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 15px;
     color: gray;
 }
-input:checked{
-    accent-color: red;
+
+/* 메인콘텐츠 */
+.content {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
-input:focus{
-    background-color: lightgreen;
+
+/* 프로필정보 */
+.profile-card {
+    background-color: aqua;
+    border-radius: 15px;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    gap: 25px;
 }
-input:enabled{
-    border: 2px solid blue;
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.profile-image .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info h2 {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+/* 섹션공통디자인 */
+.card-section {
+    border: 1px solid gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.title-line {
+    border: none;
+    height: 2px;
+    background-color: darkblue;
+    margin-bottom: 15px;
+}
+
+/* 관심기술 */
+.skill-container {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    color: black
+}
+
+.block-html {
+    background-color: greenyellow;
+}
+
+.block-css {
+    background-color: darksalmon;
+}
+
+.block-js {
+    background-color: gainsboro;
+}
+
+.block-git {
+    background-color: darksalmon;
+}
+
+/* 자기소개 */
+.word-text p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+/* 문의하기 */
+.ask-form {
+    gap: 15px;
+    flex-direction: column;
+    display: flex;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    width: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.form-group input {
+    flex: 1;
+    outline: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+
+.input-name {
+    background-color: khaki;
+}
+
+.input-email {
+    background-color: aqua;
+}
+
+.submit-button {
+    width: 120px;
+    margin-left: 80px;
+    padding: 10px 25px;
+    background-color: indigo;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 푸터 */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 10px;
 }
