@@ -1,0 +1,58 @@
+.header {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+}
+
+.menu {
+    background-color: rgb(101, 137, 235);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.menu-item {
+    flex: 1;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(79, 149, 255);
+}
+
+.introduce {
+    width: 60%;
+    float: left;
+    padding: 40px 30px;
+}
+
+.quick-menu {
+    width: 30%;
+    float: right;
+    background-color: rgb(186, 211, 224);
+    padding: 30px 20px;
+    border-left: 1px solid #d9e2ec;
+}
+
+.quick-menu ul {
+    list-style: none;
+}
+
+.quick-menu li {
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    float: left;
+    color: white;
+    background-color: rgb(31, 40, 48);
+}

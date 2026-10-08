@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(150, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.menu {
+    background-color: rgb(200, 0, 0);
+    display: flex;
+    margin: 0 auto;
+}
+
+.menu-item {
+    flex: 1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-right: 1px solid white;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.profile {
+    flex: 1;
+    background-color: rgb(246, 199, 199);
+    padding: 30px 10px;
+}
+
+.profile h3 {
+    color: rgb(150, 0, 0);
+}
+
+.projects {
+    flex: 3;
+    padding: 30px 30px;
+}
+
+.projects h2 {
+    color: rgb(150, 0, 0);
+}
+
+.project-card {
+    border: 1px solid rgb(255, 165, 165);
+    background-color: rgb(249, 241, 241);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    flex: 1;
+    background-color: rgb(255, 242, 242);
+    padding: 30px 30px;
+}
+
+.skills h3 {
+    color: rgb(150, 0, 0);
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    color: rgb(48, 48, 48);
+}
+
+.footer {
+    background-color: rgb(75, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
